@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .box{
+            background-color: seagreen;
+            
+        }
+        .box1{
+            color:aqua;
+            padding:10px;
+            margin:5px;
+            border:2px solid black;
+            height: 200px;
+            width: 200px;
+            box-sizing: border-box;
+        }
+        .box2{
+            color:rgb(119, 0, 255);
+            padding:10px;
+            margin:5px;
+            border:50px solid rgb(143, 18, 18);
+            height: 200px;
+            width: 200px;
+        }
+        .red{
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1"><h1 class="red">hellooooo</h1>hello</div>
+    <div class="box box2">hello again</div>
+    <div class="box box2">hello again</div>
+    <div class="box box2">hello again</div>
+        
+</body>
+</html>
