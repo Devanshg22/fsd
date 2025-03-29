@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* .boxes :first-child{
+    background-color: red;
+}
+.box::first-line{
+    color: yellow;
+} */
+ .boxes *{
+    background-color:rgb(111, 88, 134);
+    border:2px solid black;
+ }
+ [color="primary"]{
+    margin-bottom: 45px;
+ }
+ .boxes::before{content:"hhhheeeeeellooooooooooo";
+color: rgb(40, 82, 219);}
+::selection{
+    background-color: rgb(10, 6, 6);
+    color: rgb(149, 19, 19);
+}
+input::placeholder{
+    color:rgb(178, 207, 17);
+    font-size:20px;
+}
+
+</style>
+<body>
+    <div class="boxes">
+        <div color="primary"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam excepturi, voluptates itaque dignissimos quos rerum tenetur ipsa voluptatum? Accusantium rem non repellendus molestiae dolore animi corporis aut excepturi. Expedita amet nisi iste quisquam, accusantium ad rerum ipsam laudantium. Cupiditate!</p></div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum voluptatem nulla ea dolorem, consequatur iusto facilis nesciunt nihil. Tenetur repellendus laboriosam facere consequatur recusandae ducimus aut illo similique quia voluptates eum ut, nemo esse. Est praesentium nemo placeat neque nobis dolor, vel quia quod quos molestiae nisi?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum voluptatem nulla ea dolorem, consequatur iusto facilis nesciunt nihil. Tenetur repellendus laboriosam facere consequatur recusandae ducimus aut illo similique quia voluptates eum ut, nemo esse. Est praesentium nemo placeat neque nobis dolor, vel quia quod quos molestiae nisi?</div>
+        <input type="y=text" placeholder="Enter your name">
+    </div>
+</body>
+</html>
