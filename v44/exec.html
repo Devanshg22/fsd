@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .logo img{
+        width: 140px;
+    /* height: 23px; */
+    }
+
+nav{display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center;
+    width: 100%; */
+    gap:34px;
+}
+.right ul li{
+    list-style: none;
+    display:flex;
+    align-items: center;
+
+    
+    }
+    
+.first{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+
+
+}
+.second{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+ .eng {
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    background-color: #4CAF50;
+    /* width: 70px; */
+    width: 302px;
+    height: 47px;
+    font-size: 19px
+}
+.second p{
+    margin: 20px;
+    padding: 14px;
+    font-size: 26px;
+    width: 95vw;
+}
+.contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:12px;
+}
+.lang{
+    margin-bottom: 23px;
+
+    /* text-align: center; */
+    font-size: 20px;
+display:grid;
+align-items: center;
+background-color: azure;
+/* margin: left 100px; */
+/* margin-left:10px  */
+margin-left: 169px;
+}
+.blue{
+    text-align: center;
+    border-radius: 13px;
+    border: none;
+    background-color: #4CAF50;
+    /* width: 70px; */
+    width: 155px;
+    height: 38px;
+    font-size: 16px;
+}
+
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="data:image/jpeg;base64,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"
+            ></div>
+            <div class="right"> 
+                <ul>
+                    <li><span>products</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg></li>
+                    <li><span>pricing</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg></li>
+                    <li><span>resources</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg></li>
+                    <li><span>about us</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="first">
+            Download <b>UltraEdit</b> for Windows  Reviews</div>
+        <div class="second"><p>
+Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.
+</p>
+<button class="eng" >
+    Download Mac or Linux version
+</button>
+        </div>
+        
+    </main>
+    <div class="contain">
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        <div class="lang">ENGLISH
+            
+            <button class="blue">download 64bit</button>
+
+        </div>
+        </div>
+        
+      
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+background-color: antiquewhite;
+width: 90vw;
+height: 60vh;
+}
+.box{ background-color: aquamarine;
+width:10vw;
+height: 5vh;
+animation: devansh 3s ease-in-out 2s infinite alternate-reverse;
+animation-fill-mode: forwards;
+}
+@keyframes devansh {
+    from{
+        background-color: blue;
+    }
+    to{
+        transform: translateX(1000px) ;
+        background-color: red;
+
+    }
+    
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+    
+</body>
+</html>
